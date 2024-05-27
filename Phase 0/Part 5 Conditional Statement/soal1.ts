@@ -29,6 +29,9 @@ jika iya, keluarkan pesan sesuai kriteria
 
 */
 
+let nama = "Adzikri", peran = "Penyihir";
+
+//code disini gunakan console.log untuk outputnya
 interface Peran {
     nama: string,
     pesan: string,
@@ -47,10 +50,4 @@ function run(nama: string, peran: string = "default"): string {
     return `Hai ${nama}, ${pesan}`;
 }
 
-let nama = "Adzikri", peran = "Penyihir";
-
 console.log(run(nama, peran));
-
-
-
-//code disini gunakan console.log untuk outputnya
