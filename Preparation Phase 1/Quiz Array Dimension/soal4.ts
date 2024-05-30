@@ -26,7 +26,7 @@ output: ['dont', 'know', 'what', 'have', 'lose']
 function averageLengthWord(words: string) {
   const arrWord = words.split(" ");
   const wordLength = arrWord.join("").length;
-  const average = Math.ceil(wordLength/arrWord.length);
+  const average = Math.round(wordLength/arrWord.length);
   return arrWord.filter(x => x.length === average);
 }
 
